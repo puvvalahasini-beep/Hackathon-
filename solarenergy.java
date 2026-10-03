@@ -1,0 +1,14 @@
+public class solarenergy {
+    public static void main(String[] args) {
+
+        int panelID = 101;
+        double energyGenerated = 25.75;
+        int numberOfPanels = 20;
+        char systemStatus = 'A';
+
+        System.out.println("Panel ID: " + panelID);
+        System.out.println("Energy Generated: " + energyGenerated + " kWh");
+        System.out.println("Number of Solar Panels: " + numberOfPanels);
+        System.out.println("System Status: " + systemStatus);
+    }
+}
